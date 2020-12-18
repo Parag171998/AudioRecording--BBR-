@@ -13,13 +13,8 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.bbrtask.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:name="com.example.bbrtask.ui.dashboard.AudioListFragment"
+        android:label="Audio List"
         tools:layout="@layout/fragment_dashboard" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.bbrtask.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
 </navigation>

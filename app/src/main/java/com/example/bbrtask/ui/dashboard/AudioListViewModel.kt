@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 import com.example.bbrtask.repository.RecordingRepository
 import java.io.File
 
-class DashboardViewModel : ViewModel() {
+class AudioListViewModel : ViewModel() {
 
     private var recordingRepository: RecordingRepository? = null
 
